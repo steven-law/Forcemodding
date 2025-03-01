@@ -1,0 +1,6 @@
+sudo mount C4 /home/name/Force/test/      mount the file
+sudo unmount /home/name/Force/test        unmount the file
+
+
+sudo rm -rf ~/.local/share/Trash/*        empty trashbin
+

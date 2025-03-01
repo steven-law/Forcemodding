@@ -12,6 +12,8 @@ install raspberry OS on a raspberry 3/4 IMPORTANT!! USE RASPBERRY OS from 28.1.2
 connect from your PC to the pi in vscode via Remote SSH  
 some things will get installed on the pi  
 install alsa with sudo apt install libasound2-dev (via PUTTY, Terminal, or WinSCP)  
+install binwalk for extracting img files
+get kikgen´s imager file for comprtessing
 
 create a folder on the pi with mkdir YourSequencerName  
 copy the rt*.h /.cpp files from one of an existing sequencer projects into your new folder  

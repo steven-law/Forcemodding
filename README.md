@@ -14,7 +14,10 @@ some things will get installed on the pi
 install alsa with sudo apt install libasound2-dev (via PUTTY, Terminal, or WinSCP)  
 install binwalk for extracting img files
 get kikgen´s imager file for comprtessing
-
+to enable execution from sd card make:   
+mount remount /media/662522 -o rw,remount,exec   
+   
+   
 create a folder on the pi with mkdir YourSequencerName  
 copy the rt*.h /.cpp files from one of an existing sequencer projects into your new folder  
 copy the compile.sh file into your folder  

@@ -13,7 +13,9 @@ connect from your PC to the pi in vscode via Remote SSH
 some things will get installed on the pi  
 install alsa with sudo apt install libasound2-dev (via PUTTY, Terminal, or WinSCP)  
 install binwalk for extracting img files
-get kikgen´s imager file for comprtessing
+get kikgen´s imager file for comprtessing    
+
+   
 to enable execution from sd card make:   
 mount remount /media/662522 -o rw,remount,exec   
    
